@@ -1,0 +1,62 @@
+body{
+    background-color: #d9e7f4;
+}
+
+.container {
+    text-align: center;
+    margin-top: 23px;
+}
+
+h1{
+    font-weight: bold;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #07253f;
+}
+table {
+    margin: auto;
+
+}
+
+input {
+    font-size: 34px;
+    width: auto;
+    border: 3px solid darkolivegreen;
+    border-radius: 15px;
+    
+    background: #d9e7f4;
+    border: 3px solid #0e2748;
+    padding: 6px;
+
+}
+
+button {
+    font-size: 30px;
+     background-color: #07253f;
+    width: 102px;
+    height: 58px;
+    border-radius: 16px;
+    color: #9fc5d2;
+    margin: 5px;
+    padding: 6px;
+}
+button:hover{
+    background-color: #7891a6;
+    color: #07253f;
+}
+
+.calculator{
+    display: inline-block;   /*here we have dsone inline block so that the calc takes only that much space which is required*/
+    background-color: #7891a6;
+    padding: 28px;
+    border-radius: 37px;
+    transition: all 0.12s linear;
+}
+
+#clear,
+#back{
+    background-color: rgb(173, 196, 230);
+    color: #07253f;
+    font-weight: bold;
+   
+}
